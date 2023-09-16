@@ -3,55 +3,120 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Curriculo</title>
+    <title>Curriculum Blog</title>
     <style>
         body {
-            background-image: url('white_logo_transparent_background.png'); 
-            background-size: cover; 
-            background-attachment: fixed; 
+            font-family: Arial, sans-serif;
+            background-color: #f2f2f2;
+            margin: 0;
+            padding: 0;
+        }
+
+        header {
+            background-color: #333;
+            color: #fff;
+            text-align: center;
+            padding: 20px;
+        }
+
+        h1 {
+            font-size: 36px;
+        }
+
+        h2 {
+            font-size: 24px;
+            color: #666;
+        }
+
+        .section {
+            background-color: #fff;
+            padding: 20px;
+            margin: 20px;
+            border-radius: 5px;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+        }
+
+        .contact {
+            background-color: #007bff;
+            color: #fff;
+            text-align: center;
+            padding: 20px;
+        }
+
+        button {
+            background-color: #007bff;
+            color: #fff;
+            border: none;
+            padding: 10px 20px;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+
+        button:hover {
+            background-color: #0056b3;
         }
     </style>
 </head>
 <body>
-    <center>
-    <h1>Queren Neves Dos Santos </h1>
-    <h2>Desenvolvimento web e análise de dados</h2>
-    </center>
-    <p>
-        Com nove meses de experiência no suporte e análise de dados, estou atualmente direcionando meus esforços para aprimorar minha expertise em desenvolvimento web e Android, com um foco especial em JavaScript. Como empreendedora, disponibilizo serviços de consultoria nesse campo, aproveitando minha proficiência em técnicas avançadas de análise de dados, bem como minhas habilidades em PHP, MySQL, Python, Ajax e Java. Acredito que essa combinação única me capacita a enfrentar desafios complexos e a oferecer soluções inovadoras que impulsionam o sucesso das organizações com as quais colaboro.
-    </p>
-    <strong>Escolaridade</strong>
-    <br><br>
-     <b></i>Entidade:</i> </b>UNIVESP<br>
-     Curso: Tecnologia da Informação<br>
-     Periodo: janeiro/2020 à dezembro de 2023<br>
-     <br>
-     <strong>Experiêcia</strong>
-     <br>
-     <br>
-     Loovus LTDA - 05/2023 até o momento
-     <br>
-     <br>
-     Desenvolver e executar testes automatizados para identificar e corrigir erros de funcionalidade, usabilidade e desempenho.
-     Realizar testes de unidade, integração e sistema para garantir que a aplicação atenda aos requisitos estabelecidos.
-     Documentar e relatar os resultados dos testes, trabalhando em conjunto com a equipe para corrigir problemas identificados.
-     Garantir a segurança das aplicações web, identificando e corrigindo possíveis vulnerabilidades.
-     Implementar boas práticas de segurança, como a validação de entrada de dados, proteção contra ataques de injeção de código, gerenciamento de sessões seguras e autenticação adequada.
-     Realizar análises de segurança e auditorias periódicas para garantir que as aplicações estejam protegidas contra ameaças.
-     Implementar funcionalidades interativas e dinâmicas utilizando bibliotecas e frameworks JavaScript, como React, Angular ou Vue.js.
-     Garantir a compatibilidade entre diferentes navegadores e dispositivos, otimizando o desempenho e a usabilidade da aplicação.
-    Colaborar com os designers para traduzir o design visual em elementos interativos e funcionais.
-    <br>
-    <br>
-    <br>
-    Estagiária em Edi-labs Sistemas LTDA - 01/2022 à 09/2022
-    <br>
-    <br>
-    Responsável por fornecer suporte técnico para usuários com Axway Manage file transfer (MFT)
-    Habilidade em realizar análises de dados utilizando ferramentas como Logstash, Elasticsearch e Grafana.
-    Colaboração  de projetos por meio do uso da ferramenta Jira Service Desk.
-    Desenvolvimento e configuração de ambientes em nuvem e execução de testes de códigos (S3)
-    Auxilio em configurações Axway Secure Transport  (ST)
-    Criação de códigos utilizando o sistema operacional Linux.
+    <header>
+        <h1>Queren Neves Dos Santos</h1>
+        <h2>Desenvolvendora web com habilidades em análise de dados</h2>
+    </header>
+
+    <div class="section">
+        <h2>Escolaridade</h2>
+        <p><b>Entidade:</b> UNIVESP</p>
+        <p><b>Curso:</b> Tecnologia da Informação</p>
+        <p><b>Formada em dezembro de 2023</p>
+    </div>
+
+    <div class="section">
+        <h2>Experiência</h2>
+        <button id="experience-button">Mostrar Experiência</button>
+        <div id="experience-content" style="display: none;">
+            <p>Loovus LTDA - 05/2023 até o momento</p>
+           <p>Essa experiência envolve o desenvolvimento e execução de testes automatizados para encontrar e corrigir problemas, garantir a segurança de aplicações web, implementar práticas de segurança, realizar análises de segurança, implementar recursos interativos com JavaScript, assegurar a compatibilidade com diversos navegadores e trabalhar em conjunto com designer para transformar o design visual em elementos funcionais.</p>
+           <br>
+           <p>Estagiária em Edi-labs Sistemas LTDA (01/2022 - 09/2022)</p>       
+           <p>Essa experiência envolve o fornecimento de suporte técnico especializado em Axway Manage File Transfer (MFT), análise de dados utilizando ferramentas como Logstash, Elasticsearch e Grafana, colaboração em projetos com Jira Service Desk, configuração de ambientes em nuvem, execução de testes de códigos no S3, assistência na configuração do Axway Secure Transport (ST) e desenvolvimento de código em sistemas operacionais Linux.</p>
+        </div>
+    </div>
+
+    <div class="section">
+        <h2>Contato</h2>
+        <div class="contact">
+            <ul>
+                <li>
+                  <a href="https://api.whatsapp.com/send?phone=5511978514434>
+                    <i class="fab fa-whatsapp"></i>
+                    Whatsapp Business (11) 97851-44344
+                  </a>
+                </li>        
+                <a href="https://www.instagram.com/qnevesdev/">
+                  <i class="fab fa-instagram"></i> @qnevesdev
+                </a>
+                <a href="https://www.linkedin.com/in/queren">linkedin.com/in/queren</a></p>
+                <a href="https://github.com/querenneves">
+                    <i class="fab fa-github"></i> GitHub - querenneves
+                </a>
+              </ul>
+    </div>
+
+    <script>
+        document.addEventListener('DOMContentLoaded', function () {
+            const experienceButton = document.querySelector('#experience-button');
+            const experienceContent = document.querySelector('#experience-content');
+
+            experienceButton.addEventListener('click', function () {
+                if (experienceContent.style.display === 'none' || experienceContent.style.display === '') {
+                    experienceContent.style.display = 'block';
+                    experienceButton.innerText = 'Ocultar Experiência';
+                } else {
+                    experienceContent.style.display = 'none';
+                    experienceButton.innerText = 'Mostrar Experiência';
+                }
+            });
+        });
+    </script>
 </body>
 </html>
